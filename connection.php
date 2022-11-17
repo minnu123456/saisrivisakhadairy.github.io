@@ -1,5 +1,5 @@
 <?php
-$servername = "0.tcp.in.ngrok.io:19656";
+$servername = "tcp://0.tcp.in.ngrok.io:19656";
 $username = "root";
 $password = "";
 $dbname = "boodytest";
