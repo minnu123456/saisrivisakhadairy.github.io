@@ -1,0 +1,20 @@
+<html>
+    <head></head>
+    <body>
+       okk
+       <script>
+          window.onload = function() {
+            
+            $.ajax({
+                url: "../database/owner/test.php",
+                method: "post",
+                data: {
+                }
+            }).done(function(response) {
+                console.log(response)
+            })
+          }
+       </script>
+       <script src="./jquery-3.6.1.js"></script>
+    </body>
+</html>
